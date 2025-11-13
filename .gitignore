@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Production files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor settings
+.vscode/
+.idea/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Optional cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Optional testing
+coverage/
+
+# Optional: if using vite
+.vite/
